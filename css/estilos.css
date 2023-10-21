@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: auto;
+    }
+    
+    
+
+    
+    .fondo {
+    background-image: url ("img/bg-palm.jpg");
+    opacity: 0,2;
+    background-size: cover; /*Ajusta el tamaño de la imagen para cubrir todo el contenedor*/
+    width: 100%; /* Ajusta el ancho del div, por ejemplo al 100% del contenedor padre */
+    }
+    .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    
+    }
+    .contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+    width: 300px;
+    }
+    
